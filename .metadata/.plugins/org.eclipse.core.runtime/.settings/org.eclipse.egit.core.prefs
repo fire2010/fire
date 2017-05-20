@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=D\:\\workspace-sts-3.8.4.RELEASE\\.git;D\:\\workspace-sts-3.8.4.RELEASE\\fire-manager\\.git;C\:\\Users\\Administrator\\git\\fireshopping\\.git;C\:\\fire\\fireshopping\\.git;D\:\\workspace-sts-3.8.4.RELEASE\\fire-manager-web\\.git;D\:\\workspace-sts-3.8.4.RELEASE\\fire-common\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;fire-manager\\.git;C\:\\Users\\Administrator\\git\\fireshopping\\.git;C\:\\fire\\fireshopping\\.git;fire-manager-web\\.git;fire-common\\.git;
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1

@@ -1,0 +1,5 @@
+package com.fire.service.impl;
+
+public class ItemServiceImpl {
+
+}

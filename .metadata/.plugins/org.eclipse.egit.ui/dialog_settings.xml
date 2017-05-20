@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="0" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
+	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="Administrator &lt;Administrator@YH-201705131242&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="Administrator &lt;Administrator@YH-201705131242&gt;"/>
+	</list>
+	<section name="GitImportWizard">
+		<item value="true" key="GitProjectsImportPage.STORE_NESTED_PROJECTS"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\Administrator\git\fireshopping\.git">
+			<item value="false"/>
+			<item value="Administrator &lt;Administrator@YH-201705131242&gt;"/>
+			<item value="fire"/>
+			<item value="Administrator &lt;Administrator@YH-201705131242&gt;"/>
+			<item value="9607377c25f7a0e338f4cd4fc0cc6f0df4ea8378"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item value="500,500" key="STAGING_SASH_FORM_WEIGHT"/>
+		<item value="true" key="sortItemState"/>
+		<item value="500,500" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
+	</section>
+</section>

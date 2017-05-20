@@ -1,0 +1,11 @@
+com\fire\dao\TbUserDao.class
+com\fire\dao\TbItemCatDao.class
+com\fire\dao\TbContentCategoryDao.class
+com\fire\dao\TbOrderShippingDao.class
+com\fire\dao\TbItemDescDao.class
+com\fire\dao\TbOrderDao.class
+com\fire\dao\TbItemParamItemDao.class
+com\fire\dao\TbItemDao.class
+com\fire\dao\TbOrderItemDao.class
+com\fire\dao\TbContentDao.class
+com\fire\dao\TbItemParamDao.class
