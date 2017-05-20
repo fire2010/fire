@@ -2,9 +2,10 @@ package com.fire.pagehelper;
 
 import java.util.List;
 
+import javax.annotation.Resource;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
@@ -29,7 +30,7 @@ import com.github.pagehelper.PageInfo;
 @ContextConfiguration(locations = {"classpath:spring/applicationContext-dao.xml"})
 public class PageHelperTest {
 	
-	@Autowired
+	@Resource
 	private TbItemDao tbItemDao;
 	
 	
@@ -59,9 +60,10 @@ public class PageHelperTest {
 		tbItemQuery.setPageNo(1);
 		//页次数
 		tbItemQuery.setPageSize(10);
-		
+		//动态SQL查询
+		tbItemQuery.setFields("id,title");
 		List<TbItem> list = tbItemDao.selectByExample(tbItemQuery);
 		
-		System.out.println(list.size());
+		System.out.println(list);
 	}
 }

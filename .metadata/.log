@@ -7842,3 +7842,1656 @@ org.eclipse.core.internal.resources.ResourceException: Resource is out of sync w
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 !SUBENTRY 1 org.eclipse.core.resources 4 274 2017-05-20 21:18:57.129
 !MESSAGE Resource is out of sync with the file system: '/fire-manager-service/target/tomcat/conf/logging.properties'.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:26:41.658
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:27:30.107
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.9 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:30.749
+!MESSAGE properties loading for project 'fire-manager'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:30.752
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:27:30.755
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:27:30.755
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:30.758
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:27:30.760
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\classes\META-INF\maven\com.fire\fire-manager-interface\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\classes\META-INF\maven\com.fire\fire-manager-interface\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:27:30.760
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\classes\META-INF\maven\com.fire\fire-manager-interface\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:30.763
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:27:30.766
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:27:30.766
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:30.769
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:27:30.771
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:27:30.771
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:30.774
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:30.777
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:30.780
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:27:30.782
+!MESSAGE Resource is out of sync with the file system: '/fire-manager/fire-manager-service/target/classes/log4j.properties'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/fire-manager/fire-manager-service/target/classes/log4j.properties'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:849)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2017-05-20 21:27:30.782
+!MESSAGE Resource is out of sync with the file system: '/fire-manager/fire-manager-service/target/classes/log4j.properties'.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:30.785
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:30.788
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:27:30.791
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-service\target\m2e-wtp\web-resources\META-INF\maven\com.fire\fire-manager-service\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-service\target\m2e-wtp\web-resources\META-INF\maven\com.fire\fire-manager-service\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:27:30.791
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-service\target\m2e-wtp\web-resources\META-INF\maven\com.fire\fire-manager-service\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:30.794
+!MESSAGE loading file 'logging.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:27:30.797
+!MESSAGE Resource is out of sync with the file system: '/fire-manager/fire-manager-service/target/tomcat/conf/logging.properties'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/fire-manager/fire-manager-service/target/tomcat/conf/logging.properties'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:849)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2017-05-20 21:27:30.797
+!MESSAGE Resource is out of sync with the file system: '/fire-manager/fire-manager-service/target/tomcat/conf/logging.properties'.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:31.029
+!MESSAGE properties loading for project 'fire-manager'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:31.032
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:27:31.034
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:27:31.036
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:31.038
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:27:31.040
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\classes\META-INF\maven\com.fire\fire-manager-interface\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\classes\META-INF\maven\com.fire\fire-manager-interface\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:27:31.040
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\classes\META-INF\maven\com.fire\fire-manager-interface\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:31.044
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:27:31.048
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:27:31.048
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:31.050
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:27:31.054
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:27:31.054
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:31.056
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:31.060
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:31.063
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:31.066
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:31.069
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:27:31.072
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-service\target\m2e-wtp\web-resources\META-INF\maven\com.fire\fire-manager-service\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-service\target\m2e-wtp\web-resources\META-INF\maven\com.fire\fire-manager-service\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:27:31.073
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-service\target\m2e-wtp\web-resources\META-INF\maven\com.fire\fire-manager-service\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:31.075
+!MESSAGE loading file 'logging.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:27:31.078
+!MESSAGE Resource is out of sync with the file system: '/fire-manager/fire-manager-service/target/tomcat/conf/logging.properties'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/fire-manager/fire-manager-service/target/tomcat/conf/logging.properties'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:849)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2017-05-20 21:27:31.079
+!MESSAGE Resource is out of sync with the file system: '/fire-manager/fire-manager-service/target/tomcat/conf/logging.properties'.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.274
+!MESSAGE properties loading for project 'fire-manager'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.276
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:27:42.279
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1599)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:131)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:291)
+	at org.eclipse.debug.ui.RefreshTab.refreshResources(RefreshTab.java:408)
+	at org.eclipse.m2e.internal.launch.MavenRuntimeLaunchSupport$BackgroundResourceRefresher$1.run(MavenRuntimeLaunchSupport.java:197)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:27:42.279
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.282
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.285
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:27:42.288
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1599)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:131)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:291)
+	at org.eclipse.debug.ui.RefreshTab.refreshResources(RefreshTab.java:408)
+	at org.eclipse.m2e.internal.launch.MavenRuntimeLaunchSupport$BackgroundResourceRefresher$1.run(MavenRuntimeLaunchSupport.java:197)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:27:42.288
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.291
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.293
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.296
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.299
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.302
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:27:42.304
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-service\target\m2e-wtp\web-resources\META-INF\maven\com.fire\fire-manager-service\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-service\target\m2e-wtp\web-resources\META-INF\maven\com.fire\fire-manager-service\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1599)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:131)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:291)
+	at org.eclipse.debug.ui.RefreshTab.refreshResources(RefreshTab.java:408)
+	at org.eclipse.m2e.internal.launch.MavenRuntimeLaunchSupport$BackgroundResourceRefresher$1.run(MavenRuntimeLaunchSupport.java:197)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:27:42.304
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-service\target\m2e-wtp\web-resources\META-INF\maven\com.fire\fire-manager-service\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.307
+!MESSAGE loading file 'logging.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:27:42.310
+!MESSAGE Resource is out of sync with the file system: '/fire-manager/fire-manager-service/target/tomcat/conf/logging.properties'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/fire-manager/fire-manager-service/target/tomcat/conf/logging.properties'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:849)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1599)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:131)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:291)
+	at org.eclipse.debug.ui.RefreshTab.refreshResources(RefreshTab.java:408)
+	at org.eclipse.m2e.internal.launch.MavenRuntimeLaunchSupport$BackgroundResourceRefresher$1.run(MavenRuntimeLaunchSupport.java:197)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2017-05-20 21:27:42.310
+!MESSAGE Resource is out of sync with the file system: '/fire-manager/fire-manager-service/target/tomcat/conf/logging.properties'.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.312
+!MESSAGE properties loading for project 'fire-manager-interface'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.315
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.860
+!MESSAGE properties loading for project 'fire-manager'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.862
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:27:42.867
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:27:42.867
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.870
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.873
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.879
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:27:42.882
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:27:42.882
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.886
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.889
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.893
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.896
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.899
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:27:42.903
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-service\target\m2e-wtp\web-resources\META-INF\maven\com.fire\fire-manager-service\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-service\target\m2e-wtp\web-resources\META-INF\maven\com.fire\fire-manager-service\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:27:42.903
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-service\target\m2e-wtp\web-resources\META-INF\maven\com.fire\fire-manager-service\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:27:42.907
+!MESSAGE loading file 'logging.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:27:42.914
+!MESSAGE Resource is out of sync with the file system: '/fire-manager/fire-manager-service/target/tomcat/conf/logging.properties'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/fire-manager/fire-manager-service/target/tomcat/conf/logging.properties'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:849)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2017-05-20 21:27:42.914
+!MESSAGE Resource is out of sync with the file system: '/fire-manager/fire-manager-service/target/tomcat/conf/logging.properties'.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:07.426
+!MESSAGE properties loading for project 'fire-manager'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:07.431
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:28:07.434
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1599)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:131)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:291)
+	at org.eclipse.debug.ui.RefreshTab.refreshResources(RefreshTab.java:408)
+	at org.eclipse.m2e.internal.launch.MavenRuntimeLaunchSupport$BackgroundResourceRefresher$1.run(MavenRuntimeLaunchSupport.java:197)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:28:07.434
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:07.436
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:07.439
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:07.443
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:28:07.445
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1599)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:131)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:291)
+	at org.eclipse.debug.ui.RefreshTab.refreshResources(RefreshTab.java:408)
+	at org.eclipse.m2e.internal.launch.MavenRuntimeLaunchSupport$BackgroundResourceRefresher$1.run(MavenRuntimeLaunchSupport.java:197)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:28:07.446
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:07.448
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:07.451
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:07.454
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:07.456
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:07.460
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:07.463
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:07.465
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:07.468
+!MESSAGE loading file 'logging.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:07.471
+!MESSAGE properties loading for project 'fire-manager-service'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:07.473
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:07.476
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:07.479
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:07.483
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:07.486
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:07.489
+!MESSAGE loading file 'logging.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:08.017
+!MESSAGE properties loading for project 'fire-manager'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:08.020
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:28:08.022
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:28:08.022
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:08.025
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:08.028
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:08.031
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:28:08.033
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:28:08.033
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:08.036
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:08.039
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:08.042
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:08.044
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:08.047
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:08.050
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:08.053
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:08.056
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:08.059
+!MESSAGE loading file 'logging.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:08.062
+!MESSAGE properties loading for project 'fire-manager-service'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:08.065
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:08.068
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:08.071
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:08.073
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:08.076
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:08.079
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:28:08.082
+!MESSAGE loading file 'logging.properties'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:29:13.386
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.9 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:29:13.404
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:29:29.049
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.9 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:29:29.178
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:29:47.357
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.9 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:01.965
+!MESSAGE properties loading for project 'fire-manager'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:01.968
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:30:01.970
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1599)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:131)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:291)
+	at org.eclipse.debug.ui.RefreshTab.refreshResources(RefreshTab.java:408)
+	at org.eclipse.m2e.internal.launch.MavenRuntimeLaunchSupport$BackgroundResourceRefresher$1.run(MavenRuntimeLaunchSupport.java:197)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:30:01.971
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:01.973
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:30:01.976
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\classes\META-INF\maven\com.fire\fire-manager-interface\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\classes\META-INF\maven\com.fire\fire-manager-interface\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1599)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:131)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:291)
+	at org.eclipse.debug.ui.RefreshTab.refreshResources(RefreshTab.java:408)
+	at org.eclipse.m2e.internal.launch.MavenRuntimeLaunchSupport$BackgroundResourceRefresher$1.run(MavenRuntimeLaunchSupport.java:197)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:30:01.976
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\classes\META-INF\maven\com.fire\fire-manager-interface\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:01.979
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:30:01.982
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1599)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:131)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:291)
+	at org.eclipse.debug.ui.RefreshTab.refreshResources(RefreshTab.java:408)
+	at org.eclipse.m2e.internal.launch.MavenRuntimeLaunchSupport$BackgroundResourceRefresher$1.run(MavenRuntimeLaunchSupport.java:197)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:30:01.982
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:01.986
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:30:01.988
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1599)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:131)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:291)
+	at org.eclipse.debug.ui.RefreshTab.refreshResources(RefreshTab.java:408)
+	at org.eclipse.m2e.internal.launch.MavenRuntimeLaunchSupport$BackgroundResourceRefresher$1.run(MavenRuntimeLaunchSupport.java:197)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:30:01.989
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:01.991
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:01.994
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:01.997
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:02.000
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:02.003
+!MESSAGE loading file 'logging.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:02.006
+!MESSAGE properties loading for project 'fire-manager-service'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:02.008
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:02.011
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:02.014
+!MESSAGE loading file 'logging.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:02.362
+!MESSAGE properties loading for project 'fire-manager'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:02.366
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:30:02.370
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:30:02.370
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:02.373
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:30:02.376
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\classes\META-INF\maven\com.fire\fire-manager-interface\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\classes\META-INF\maven\com.fire\fire-manager-interface\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:30:02.376
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\classes\META-INF\maven\com.fire\fire-manager-interface\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:02.381
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:30:02.384
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:30:02.384
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:02.387
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:30:02.391
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:30:02.391
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:02.396
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:02.401
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:02.404
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:02.408
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:02.411
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:02.415
+!MESSAGE loading file 'logging.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:02.419
+!MESSAGE properties loading for project 'fire-manager-service'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:02.421
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:02.426
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:02.430
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:30:02.434
+!MESSAGE loading file 'logging.properties'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:30:20.795
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.9 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:30:20.813
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:30:50.094
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.9 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:31:09.322
+!MESSAGE properties loading for project 'fire-manager'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:31:09.327
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:31:09.332
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1599)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:131)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:291)
+	at org.eclipse.debug.ui.RefreshTab.refreshResources(RefreshTab.java:408)
+	at org.eclipse.m2e.internal.launch.MavenRuntimeLaunchSupport$BackgroundResourceRefresher$1.run(MavenRuntimeLaunchSupport.java:197)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:31:09.332
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-dao\target\classes\META-INF\maven\com.fire\fire-manager-dao\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:31:09.336
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:31:09.339
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\classes\META-INF\maven\com.fire\fire-manager-interface\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\classes\META-INF\maven\com.fire\fire-manager-interface\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1599)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:131)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:291)
+	at org.eclipse.debug.ui.RefreshTab.refreshResources(RefreshTab.java:408)
+	at org.eclipse.m2e.internal.launch.MavenRuntimeLaunchSupport$BackgroundResourceRefresher$1.run(MavenRuntimeLaunchSupport.java:197)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:31:09.339
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\classes\META-INF\maven\com.fire\fire-manager-interface\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:31:09.343
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:31:09.349
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1599)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:131)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:291)
+	at org.eclipse.debug.ui.RefreshTab.refreshResources(RefreshTab.java:408)
+	at org.eclipse.m2e.internal.launch.MavenRuntimeLaunchSupport$BackgroundResourceRefresher$1.run(MavenRuntimeLaunchSupport.java:197)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:31:09.349
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:31:09.355
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:31:09.358
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1599)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:131)
+	at org.eclipse.debug.core.RefreshUtil.refreshResources(RefreshUtil.java:291)
+	at org.eclipse.debug.ui.RefreshTab.refreshResources(RefreshTab.java:408)
+	at org.eclipse.m2e.internal.launch.MavenRuntimeLaunchSupport$BackgroundResourceRefresher$1.run(MavenRuntimeLaunchSupport.java:197)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:31:09.358
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-pojo\target\classes\META-INF\maven\com.fire\fire-manager-pojo\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:31:09.361
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:31:09.364
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:31:09.368
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:31:09.371
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:31:09.374
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:31:09.378
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:31:09.381
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:31:09.385
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:31:09.388
+!MESSAGE loading file 'logging.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:31:09.392
+!MESSAGE properties loading for project 'fire-manager-service'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:31:09.396
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:31:09.399
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:31:09.403
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:31:09.407
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:31:09.411
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:31:09.415
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:31:09.418
+!MESSAGE loading file 'logging.properties'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:31:17.579
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.9 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:31:17.599
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:32:00.428
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.9 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:32:16.711
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.9 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:17.163
+!MESSAGE properties loading for project 'fire-manager'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:17.167
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:32:17.170
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:32:17.170
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:17.173
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:17.177
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:17.180
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:17.183
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:17.186
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:17.189
+!MESSAGE loading file 'logging.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:17.192
+!MESSAGE properties loading for project 'fire-manager-service'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:17.195
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:17.198
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:17.201
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:17.203
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:17.206
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:17.209
+!MESSAGE loading file 'logging.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:17.212
+!MESSAGE properties loading for project 'fire-manager-web'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:17.215
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:32:17.494
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:18.855
+!MESSAGE properties loading for project 'fire-manager'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:18.867
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:18.938
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:32:18.944
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:32:18.944
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:18.960
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:18.964
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:18.968
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:18.971
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:18.974
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:18.994
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:18.997
+!MESSAGE loading file 'logging.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:20.638
+!MESSAGE properties loading for project 'fire-manager-web'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:20.644
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:20.647
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:32:21.367
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:32:21.374
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:32:21.731
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.9 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:22.515
+!MESSAGE properties loading for project 'fire-manager'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:22.594
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:22.838
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:22.844
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:32:22.849
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:32:22.850
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:22.855
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:22.861
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:22.879
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:22.885
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:22.892
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:22.901
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:22.906
+!MESSAGE loading file 'logging.properties'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:32:23.053
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.9 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:27.874
+!MESSAGE properties loading for project 'fire-manager'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:27.882
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:27.905
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:27.911
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 4 0 2017-05-20 21:32:27.915
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:840)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.util.ProjectProperties.loadProjectProperties(ProjectProperties.java:83)
+	at jp.gr.java_conf.ussiy.app.propedit.eclipse.plugin.startup.Startup$1.resourceChanged(Startup.java:69)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2017-05-20 21:32:27.938
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface\target\maven-archiver\pom.properties.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:27.945
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:27.950
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:27.955
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:27.959
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:27.964
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:27.967
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:27.972
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:27.975
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:27.980
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:27.983
+!MESSAGE loading file 'logging.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:27.987
+!MESSAGE properties loading for project 'fire-manager-service'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:27.992
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:27.995
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:27.998
+!MESSAGE loading file 'log4j.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:28.003
+!MESSAGE loading file 'db.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:28.007
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:28.010
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-05-20 21:32:28.013
+!MESSAGE loading file 'logging.properties'
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-05-20 21:41:32.636
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-service\target\test-classes\com\fire\pagehelper\PageHelperTest.class.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:49)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:385)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:853)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.FileNotFoundException: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-service\target\test-classes\com\fire\pagehelper\PageHelperTest.class (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:380)
+	... 28 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 269 2017-05-20 21:41:32.637
+!MESSAGE File not found: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-service\target\test-classes\com\fire\pagehelper\PageHelperTest.class.
+!STACK 0
+java.io.FileNotFoundException: D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-service\target\test-classes\com\fire\pagehelper\PageHelperTest.class (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:380)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:853)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:41:37.365
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:44:38.081
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.9 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:44:42.529
+!MESSAGE The POM for com.alibaba:druid:jar:1.0.9 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-20 21:44:42.569
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.jface.text 2 0 2017-05-20 21:55:42.405
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-05-20 21:55:42.408
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
