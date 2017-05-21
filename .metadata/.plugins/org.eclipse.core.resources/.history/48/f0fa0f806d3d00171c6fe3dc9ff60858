@@ -1,0 +1,14 @@
+package com.fire.controller;
+
+/**
+ * 商品分类管理Controller
+ * <p>Title: ItemCatController</p>
+ * <p>Description: </p>
+ * <p>Company: www.fire.com</p> 
+ * @author fire
+ * @date	2017年5月20日下午11:03:10
+ * @version 1.0
+ */
+public class ItemCatController {
+
+}

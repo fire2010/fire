@@ -1,0 +1,14 @@
+package com.fire.fastdfs;
+
+/**
+ * 图片上传测试
+ * <p>Title: FastDFSTest</p>
+ * <p>Description: </p>
+ * <p>Company: www.fire.com</p> 
+ * @author fire
+ * @date	2017年5月21日上午9:01:01
+ * @version 1.0
+ */
+public class FastDFSTest {
+
+}
