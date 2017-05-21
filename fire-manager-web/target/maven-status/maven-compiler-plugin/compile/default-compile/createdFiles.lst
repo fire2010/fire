@@ -1,4 +1,5 @@
 com\fire\utils\FastDFSClient.class
+com\fire\controller\ContentController.class
 com\fire\controller\ItemController.class
 com\fire\controller\PictureController.class
 com\fire\controller\ItemCatController.class

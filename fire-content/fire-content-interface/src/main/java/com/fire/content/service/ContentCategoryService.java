@@ -3,6 +3,7 @@ package com.fire.content.service;
 import java.util.List;
 
 import com.fire.common.pojo.EasyUITreeNode;
+import com.fire.common.pojo.FireResult;
 
 /**
  * 内容管理Service
@@ -23,4 +24,14 @@ public interface ContentCategoryService {
 	 * @return
 	 */
 	List<EasyUITreeNode> getContentCategoryList(long parentId);
+	
+	/**
+	 * 添加分类
+	 * <p>Title: addContentCategory</p>
+	 * <p>Description: </p>
+	 * @param parentId
+	 * @param name
+	 * @return
+	 */
+	FireResult addContentCategory(Long parentId,String name);
 }

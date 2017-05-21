@@ -1,0 +1,15 @@
+package com.fire.content.service.impl;
+
+import com.fire.common.pojo.FireResult;
+import com.fire.content.service.ContentService;
+import com.fire.pojo.TbContent;
+
+public class ContentServiceImpl implements ContentService {
+
+	@Override
+	public FireResult addContent(TbContent content) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

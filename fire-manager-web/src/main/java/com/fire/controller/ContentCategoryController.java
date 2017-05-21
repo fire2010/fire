@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.fire.common.pojo.EasyUITreeNode;
+import com.fire.common.pojo.FireResult;
 import com.fire.content.service.ContentCategoryService;
 
 /**
@@ -39,5 +40,12 @@ public class ContentCategoryController {
 	public List<EasyUITreeNode> getContentCategoryList(@RequestParam(value = "id",defaultValue = "0")Long parentId){
 		List<EasyUITreeNode> categoryList = contentCategoryService.getContentCategoryList(parentId);
 		return categoryList;
+	}
+	
+	@RequestMapping("content/category/create")
+	@ResponseBody
+	public FireResult addContentCategory(Long parentId,String name){
+		FireResult fireResult = contentCategoryService.addContentCategory(parentId, name);
+		return fireResult;
 	}
 }

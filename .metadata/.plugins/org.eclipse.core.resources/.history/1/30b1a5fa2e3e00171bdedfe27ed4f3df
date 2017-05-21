@@ -1,0 +1,5 @@
+package com.fire.content.service;
+
+public interface ContentService {
+
+}
