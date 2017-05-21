@@ -40,5 +40,7 @@
 		id="itemService" />
 	<dubbo:reference interface="com.fire.service.ItemCatService"
 		id="itemCatService" />
+	<dubbo:reference interface="com.fire.content.service.ContentCategoryService"
+		id="contentCategoryService" />
 	<dubbo:consumer timeout="300000" check="false" />
 </beans>      

@@ -4,8 +4,10 @@ import javax.annotation.Resource;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import com.fire.common.pojo.EeayUIDataGridResult;
+import com.fire.common.pojo.FireResult;
 import com.fire.pojo.TbItem;
 import com.fire.service.ItemService;
 
@@ -51,5 +53,20 @@ public class ItemController {
 	public EeayUIDataGridResult getItemList(Integer page,Integer rows){
 		EeayUIDataGridResult result = itemService.getItemList(page, rows);
 		return result;
+	}
+	
+	/**
+	 * 添加商品
+	 * <p>Title: addItem</p>
+	 * <p>Description: </p>
+	 * @param item
+	 * @param desc
+	 * @return
+	 */
+	@RequestMapping(value = "/item/save",method=RequestMethod.POST)
+	@ResponseBody
+	public FireResult addItem(TbItem item,String desc){
+		FireResult result = itemService.addItem(item, desc);
+		return result;	
 	}
 }

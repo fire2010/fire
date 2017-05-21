@@ -1,6 +1,7 @@
 package com.fire.service;
 
 import com.fire.common.pojo.EeayUIDataGridResult;
+import com.fire.common.pojo.FireResult;
 import com.fire.pojo.TbItem;
 
 /**
@@ -33,4 +34,13 @@ public interface ItemService {
 	 */
 	EeayUIDataGridResult getItemList(Integer page,Integer rows);
 	
+	/**
+	 * 添加商品
+	 * <p>Title: addItem</p>
+	 * <p>Description: </p>
+	 * @param item
+	 * @param desc
+	 * @return
+	 */
+	FireResult addItem(TbItem item,String desc);
 }

@@ -1,0 +1,33 @@
+package com.fire.content.serviceimpl;
+
+import java.util.List;
+
+import com.fire.common.pojo.EasyUITreeNode;
+import com.fire.content.service.ContentCategoryService;
+
+/**
+ * 内容分类管理Service
+ * <p>Title: ContentCategoryServiceImpl</p>
+ * <p>Description: </p>
+ * <p>Company: www.fire.com</p> 
+ * @author fire
+ * @date	2017年5月21日下午3:56:39
+ * @version 1.0
+ */
+public class ContentCategoryServiceImpl implements ContentCategoryService {
+
+	/**
+	 * 获取内容分类列表信息
+	 * <p>Title: getContentCategoryList</p>
+	 * <p>Description: </p>
+	 * @param parentId
+	 * @return
+	 * @see com.fire.content.service.ContentCategoryService#getContentCategoryList(long)
+	 */
+	@Override
+	public List<EasyUITreeNode> getContentCategoryList(long parentId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

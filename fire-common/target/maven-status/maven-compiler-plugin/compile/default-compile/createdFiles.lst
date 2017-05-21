@@ -1,2 +1,5 @@
+com\fire\utils\JsonUtils.class
+com\fire\common\pojo\FireResult.class
 com\fire\common\pojo\EasyUITreeNode.class
 com\fire\common\pojo\EeayUIDataGridResult.class
+com\fire\utils\IDUtils.class

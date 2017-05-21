@@ -3,3 +3,4 @@ com\fire\controller\ItemController.class
 com\fire\controller\PictureController.class
 com\fire\controller\ItemCatController.class
 com\fire\controller\PageController.class
+com\fire\controller\ContentCategoryController.class
