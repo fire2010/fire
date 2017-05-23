@@ -25,6 +25,6 @@
 	<!-- 引用dubbo服务 -->
 	<dubbo:application name="fire-portal-web"></dubbo:application>
 	<dubbo:registry protocol="zookeeper" address="192.168.249.132:2181" />
-	<!-- <dubbo:reference interface="com.fire.service.ItemCatService" id="itemCatService" /> -->
+	<dubbo:reference interface="com.fire.content.service.ContentService" id="contentService" />
 	<dubbo:consumer timeout="300000" check="false" />
 </beans>      

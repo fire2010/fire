@@ -1,0 +1,30 @@
+package com.fire.jedis;
+
+import org.junit.Test;
+
+import redis.clients.jedis.Jedis;
+
+/**
+ * jedis测试
+ * <p>Title: JedisTest</p>
+ * <p>Description: </p>
+ * <p>Company: www.fire.com</p> 
+ * @author fire
+ * @date	2017年5月22日下午11:06:18
+ * @version 1.0
+ */
+public class JedisTest {
+
+	@Test
+	public void testJedis(){
+		//创建一个jedis对象，需要制定服务ip和端口号
+		Jedis jedis = new Jedis("192.168.249.132", 6379);
+		//直接操作数据库
+		jedis.set("jedis-key", "123456");
+		String value = jedis.get("jedis-key");
+		System.out.println(value);
+		//关闭jedis
+		jedis.close();
+		
+	}
+}

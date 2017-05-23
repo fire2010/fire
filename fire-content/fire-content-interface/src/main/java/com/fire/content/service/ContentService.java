@@ -1,5 +1,7 @@
 package com.fire.content.service;
 
+import java.util.List;
+
 import com.fire.common.pojo.FireResult;
 import com.fire.pojo.TbContent;
 
@@ -22,4 +24,13 @@ public interface ContentService {
 	 * @return
 	 */
 	FireResult addContent(TbContent content);
+	
+	/**
+	 * 根据内容分类cid获取内容信息
+	 * <p>Title: getContentByCid</p>
+	 * <p>Description: </p>
+	 * @param cid
+	 * @return
+	 */
+	List<TbContent> getContentByCid(long cid);
 }

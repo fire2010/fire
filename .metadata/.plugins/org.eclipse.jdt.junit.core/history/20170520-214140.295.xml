@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="PageHelperTest" project="fire-manager-service" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="com.fire.pagehelper.PageHelperTest" time="1.281">
-    <testcase name="test" classname="com.fire.pagehelper.PageHelperTest" time="0.448"/>
-    <testcase name="testPageHelper" classname="com.fire.pagehelper.PageHelperTest" time="0.833"/>
-  </testsuite>
-</testrun>

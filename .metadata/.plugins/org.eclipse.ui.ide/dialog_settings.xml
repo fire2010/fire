@@ -124,6 +124,7 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\workspace-sts-3.8.4.RELEASE\fastdfs_client"/>
 			<item value="D:\workspace-sts-3.8.4.RELEASE\generatorSqlmapCustom"/>
 			<item value="C:\Users\Administrator\Desktop\generatorSqlmap-increase"/>
 			<item value="C:\Users\Administrator\Desktop\generatorSqlmapCustom"/>

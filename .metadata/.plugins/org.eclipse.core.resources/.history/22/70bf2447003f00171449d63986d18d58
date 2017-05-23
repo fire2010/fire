@@ -1,0 +1,5 @@
+package com.fire.jedis;
+
+public class JedisTest {
+
+}

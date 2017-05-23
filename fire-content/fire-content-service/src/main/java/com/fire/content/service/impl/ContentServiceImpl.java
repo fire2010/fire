@@ -1,6 +1,7 @@
 package com.fire.content.service.impl;
 
 import java.util.Date;
+import java.util.List;
 
 import javax.annotation.Resource;
 
@@ -10,6 +11,8 @@ import com.fire.common.pojo.FireResult;
 import com.fire.content.service.ContentService;
 import com.fire.dao.TbContentDao;
 import com.fire.pojo.TbContent;
+import com.fire.pojo.TbContentQuery;
+import com.fire.pojo.TbContentQuery.Criteria;
 
 /**
  * 内容管理Service
@@ -42,5 +45,24 @@ public class ContentServiceImpl implements ContentService {
 		//插入到内容表
 		tbContentDao.insert(content);
 		return FireResult.ok();
+	}
+
+	/**
+	 * 根据内容分类cid获取内容信息
+	 * <p>Title: getContentByCid</p>
+	 * <p>Description: </p>
+	 * @param cid
+	 * @return
+	 * @see com.fire.content.service.ContentService#getContentByCid(long)
+	 */
+	@Override
+	public List<TbContent> getContentByCid(long cid) {
+		TbContentQuery tbContentQuery = new TbContentQuery();
+		Criteria criteria = tbContentQuery.createCriteria();
+		//设置查询条件
+		criteria.andCategoryIdEqualTo(cid);
+		//执行查询
+		List<TbContent> list = tbContentDao.selectByExample(tbContentQuery);
+		return list;
 	}
 }

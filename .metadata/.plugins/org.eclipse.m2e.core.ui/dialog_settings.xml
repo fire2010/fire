@@ -7,8 +7,12 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="fire-manager-web"/>
+			<item value="fire-content-service"/>
+			<item value="fire-content"/>
+			<item value="fire-content-interface"/>
 			<item value="fire-parent"/>
+			<item value="fire-portal-web"/>
+			<item value="fire-manager-web"/>
 			<item value="fire-manager"/>
 			<item value="fire-manager-service"/>
 			<item value="fire-manager-interface"/>
@@ -45,7 +49,7 @@
 		<item value="480" key="width"/>
 		<item value="443" key="x"/>
 		<item value="0" key="y"/>
-		<item value="588" key="height"/>
+		<item value="590" key="height"/>
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
@@ -76,6 +80,8 @@
 	</section>
 	<section name="MavenModuleWizardParentPage">
 		<list key="moduleName">
+			<item value="fire-content-service"/>
+			<item value="fire-content-interface"/>
 			<item value="fire-manager-web"/>
 			<item value="fire-manager-service"/>
 			<item value="fire-manager-interface"/>
@@ -95,6 +101,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\workspace-sts-3.8.4.RELEASE\fire-manager"/>
+			<item value="D:\workspace-sts-3.8.4.RELEASE\fire-manager\fire-manager-interface"/>
 			<item value="D:\workspace-sts-3.8.4.RELEASE\fire-common"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -108,10 +116,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="org.fire.content.service"/>
 		</list>
 		<list key="groupId">
+			<item value="com.fire"/>
 		</list>
 		<list key="artifactId">
+			<item value="fire-content-service"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
