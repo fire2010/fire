@@ -50,4 +50,7 @@
 <fullyQualifiedTypeName name="redis.clients.jedis.Jedis"/>
 <fullyQualifiedTypeName name="redis.clients.jedis.JedisPool"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="redis.clients.jedis.JedisCluster"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="redis.clients.jedis.HostAndPort"/>
 </qualifiedTypeNameHistroy>

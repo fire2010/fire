@@ -1,0 +1,13 @@
+package com.fire.jedis;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class JedisSpringTest {
+
+	public void testJedisClientPool(){
+		//初始化spring容器
+		ApplicationContext  applicationConfig = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-redis.xml");
+		
+	}
+}
