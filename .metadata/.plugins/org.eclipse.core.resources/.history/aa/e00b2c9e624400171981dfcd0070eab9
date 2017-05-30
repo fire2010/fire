@@ -1,0 +1,5 @@
+package com.fire.search.dao;
+
+public interface SearchItemDao {
+
+}

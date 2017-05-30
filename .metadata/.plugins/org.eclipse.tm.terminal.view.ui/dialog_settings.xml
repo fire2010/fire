@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="LaunchTerminalSettingsDialog">
+		<item value="SSH Terminal" key="terminalLabel"/>
+		<section name="SettingsPanelControl">
+			<section name="SSH Terminal">
+				<item value="192.168.249.132" key="lastHost"/>
+				<list key="hosts">
+					<item value="192.168.249.132|ssh.keep_alive:300:ip.port:22:ip.host:192.168.249.132:savePassword:false:encoding:UTF-8:timeout:0:saveUser:false"/>
+				</list>
+			</section>
+			<section name="Git Bash">
+			</section>
+		</section>
+	</section>
+</section>

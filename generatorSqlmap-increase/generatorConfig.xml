@@ -49,8 +49,8 @@
 		
 		<!--数据库连接的信息：驱动类、连接地址、用户名、密码 -->
 		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
-			connectionURL="jdbc:mysql://localhost:3306/fire" userId="root"
-			password="root">
+			connectionURL="jdbc:mysql://121.41.41.3:3306/yhjs-zheng" userId="root"
+			password="yhjs123">
 		</jdbcConnection>
 		<!-- <jdbcConnection driverClass="oracle.jdbc.OracleDriver"
 			connectionURL="jdbc:oracle:thin:@127.0.0.1:1521:yycg" 
@@ -65,7 +65,7 @@
 		</javaTypeResolver>
 
 		<!-- targetProject:生成PO类的位置 -->
-		<javaModelGenerator targetPackage="com.fire.pojo"
+		<javaModelGenerator targetPackage="com.yihaojishi.pojo"
 			targetProject=".\src">
 			<!-- enableSubPackages:是否让schema作为包的后缀 -->
 			<property name="enableSubPackages" value="false" />
@@ -74,30 +74,26 @@
 		</javaModelGenerator>
 
         <!-- targetProject:mapper映射文件生成的位置 -->
-		<sqlMapGenerator targetPackage="com.fire.dao" 
+		<sqlMapGenerator targetPackage="com.yihaojishi.dao"
 			targetProject=".\src">
 			<!-- enableSubPackages:是否让schema作为包的后缀 -->
 			<property name="enableSubPackages" value="false" />
 		</sqlMapGenerator>
 		<!-- targetPackage：mapper接口生成的位置 -->
 		<javaClientGenerator type="XMLMAPPER"
-			targetPackage="com.fire.dao" 
+			targetPackage="com.yihaojishi.dao"
 			targetProject=".\src">
 			<!-- enableSubPackages:是否让schema作为包的后缀 -->
 			<property name="enableSubPackages" value="true" />
 		</javaClientGenerator>
 		
 	<!-- 指定数据库表 -->
-		<table schema="" tableName="tb_content"></table>
-		<table schema="" tableName="tb_content_category"></table>
-		<table schema="" tableName="tb_item"></table>
-		<table schema="" tableName="tb_item_cat"></table>
-		<table schema="" tableName="tb_item_desc"></table>
-		<table schema="" tableName="tb_item_param"></table>
-		<table schema="" tableName="tb_item_param_item"></table>
-		<table schema="" tableName="tb_order"></table>
-		<table schema="" tableName="tb_order_item"></table>
-		<table schema="" tableName="tb_order_shipping"></table>
-		<table schema="" tableName="tb_user"></table>
+		<table schema="" tableName="app_activity"></table>
+		<table schema="" tableName="app_banner"></table>
+		<table schema="" tableName="app_goods_activity"></table>
+		<table schema="" tableName="app_menu"></table>
+		<table schema="" tableName="app_menu_item"></table>
+		<table schema="" tableName="app_menu_item_role"></table>
+		<table schema="" tableName="app_menu_position"></table>
 	</context>
 </generatorConfiguration>

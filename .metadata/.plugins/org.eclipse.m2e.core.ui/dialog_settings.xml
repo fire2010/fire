@@ -7,10 +7,13 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="fire-search-web"/>
+			<item value="fire-parent"/>
+			<item value="fire-search-service"/>
+			<item value="fire-search"/>
 			<item value="fire-content-service"/>
 			<item value="fire-content"/>
 			<item value="fire-content-interface"/>
-			<item value="fire-parent"/>
 			<item value="fire-portal-web"/>
 			<item value="fire-manager-web"/>
 			<item value="fire-manager"/>
@@ -19,7 +22,6 @@
 			<item value="fire-manager-dao"/>
 			<item value="fire-manager-pojo"/>
 			<item value="fire-pojo"/>
-			<item value="fire-"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -80,6 +82,7 @@
 	</section>
 	<section name="MavenModuleWizardParentPage">
 		<list key="moduleName">
+			<item value="fire-search-service"/>
 			<item value="fire-content-service"/>
 			<item value="fire-content-interface"/>
 			<item value="fire-manager-web"/>
@@ -116,13 +119,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="org.fire.content.service"/>
 		</list>
 		<list key="groupId">
-			<item value="com.fire"/>
 		</list>
 		<list key="artifactId">
-			<item value="fire-content-service"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

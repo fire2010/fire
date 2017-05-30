@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yihaojishi.dao.AppGoodsActivityDao" >
+  <resultMap id="BaseResultMap" type="com.yihaojishi.pojo.AppGoodsActivity" >
+    <id column="goods_activity_id" property="goodsActivityId" jdbcType="INTEGER" />
+    <result column="goods_id" property="goodsId" jdbcType="INTEGER" />
+    <result column="activity_id" property="activityId" jdbcType="INTEGER" />
+    <result column="activity_desc" property="activityDesc" jdbcType="VARCHAR" />
+    <result column="activity_price" property="activityPrice" jdbcType="DECIMAL" />
+    <result column="activity_reduce_price" property="activityReducePrice" jdbcType="DECIMAL" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    <if test="fields == null" >
+      goods_activity_id, goods_id, activity_id, activity_desc, activity_price, activity_reduce_price
+    </if>
+    <if test="fields != null" >
+      ${fields}
+    </if>
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.yihaojishi.pojo.AppGoodsActivityQuery" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from app_goods_activity
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+    <if test="startRow != null" >
+      limit #{startRow} , #{pageSize}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    goods_activity_id,goods_id,activity_id,activity_desc,activity_price,activity_reduce_price
+    from app_goods_activity
+    where goods_activity_id = #{goodsActivityId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from app_goods_activity
+    where goods_activity_id = #{goodsActivityId,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.yihaojishi.pojo.AppGoodsActivityQuery" >
+    delete from app_goods_activity
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.yihaojishi.pojo.AppGoodsActivity" >
+    insert into app_goods_activity (goods_activity_id, goods_id, activity_id, 
+      activity_desc, activity_price, activity_reduce_price
+      )
+    values (#{goodsActivityId,jdbcType=INTEGER}, #{goodsId,jdbcType=INTEGER}, #{activityId,jdbcType=INTEGER}, 
+      #{activityDesc,jdbcType=VARCHAR}, #{activityPrice,jdbcType=DECIMAL}, #{activityReducePrice,jdbcType=DECIMAL}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.yihaojishi.pojo.AppGoodsActivity" >
+    insert into app_goods_activity
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="goodsActivityId != null" >
+        goods_activity_id,
+      </if>
+      <if test="goodsId != null" >
+        goods_id,
+      </if>
+      <if test="activityId != null" >
+        activity_id,
+      </if>
+      <if test="activityDesc != null" >
+        activity_desc,
+      </if>
+      <if test="activityPrice != null" >
+        activity_price,
+      </if>
+      <if test="activityReducePrice != null" >
+        activity_reduce_price,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="goodsActivityId != null" >
+        #{goodsActivityId,jdbcType=INTEGER},
+      </if>
+      <if test="goodsId != null" >
+        #{goodsId,jdbcType=INTEGER},
+      </if>
+      <if test="activityId != null" >
+        #{activityId,jdbcType=INTEGER},
+      </if>
+      <if test="activityDesc != null" >
+        #{activityDesc,jdbcType=VARCHAR},
+      </if>
+      <if test="activityPrice != null" >
+        #{activityPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="activityReducePrice != null" >
+        #{activityReducePrice,jdbcType=DECIMAL},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.yihaojishi.pojo.AppGoodsActivityQuery" resultType="java.lang.Integer" >
+    select count(*) from app_goods_activity
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update app_goods_activity
+    <set >
+      <if test="record.goodsActivityId != null" >
+        goods_activity_id = #{record.goodsActivityId,jdbcType=INTEGER},
+      </if>
+      <if test="record.goodsId != null" >
+        goods_id = #{record.goodsId,jdbcType=INTEGER},
+      </if>
+      <if test="record.activityId != null" >
+        activity_id = #{record.activityId,jdbcType=INTEGER},
+      </if>
+      <if test="record.activityDesc != null" >
+        activity_desc = #{record.activityDesc,jdbcType=VARCHAR},
+      </if>
+      <if test="record.activityPrice != null" >
+        activity_price = #{record.activityPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="record.activityReducePrice != null" >
+        activity_reduce_price = #{record.activityReducePrice,jdbcType=DECIMAL},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update app_goods_activity
+    set goods_activity_id = #{record.goodsActivityId,jdbcType=INTEGER},
+      goods_id = #{record.goodsId,jdbcType=INTEGER},
+      activity_id = #{record.activityId,jdbcType=INTEGER},
+      activity_desc = #{record.activityDesc,jdbcType=VARCHAR},
+      activity_price = #{record.activityPrice,jdbcType=DECIMAL},
+      activity_reduce_price = #{record.activityReducePrice,jdbcType=DECIMAL}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.yihaojishi.pojo.AppGoodsActivity" >
+    update app_goods_activity
+    <set >
+      <if test="goodsId != null" >
+        goods_id = #{goodsId,jdbcType=INTEGER},
+      </if>
+      <if test="activityId != null" >
+        activity_id = #{activityId,jdbcType=INTEGER},
+      </if>
+      <if test="activityDesc != null" >
+        activity_desc = #{activityDesc,jdbcType=VARCHAR},
+      </if>
+      <if test="activityPrice != null" >
+        activity_price = #{activityPrice,jdbcType=DECIMAL},
+      </if>
+      <if test="activityReducePrice != null" >
+        activity_reduce_price = #{activityReducePrice,jdbcType=DECIMAL},
+      </if>
+    </set>
+    where goods_activity_id = #{goodsActivityId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.yihaojishi.pojo.AppGoodsActivity" >
+    update app_goods_activity
+    set goods_id = #{goodsId,jdbcType=INTEGER},
+      activity_id = #{activityId,jdbcType=INTEGER},
+      activity_desc = #{activityDesc,jdbcType=VARCHAR},
+      activity_price = #{activityPrice,jdbcType=DECIMAL},
+      activity_reduce_price = #{activityReducePrice,jdbcType=DECIMAL}
+    where goods_activity_id = #{goodsActivityId,jdbcType=INTEGER}
+  </update>
+</mapper>

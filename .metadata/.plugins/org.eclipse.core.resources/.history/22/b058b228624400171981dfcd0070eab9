@@ -1,0 +1,7 @@
+package com.fire.search.pojo;
+
+import java.io.Serializable;
+
+public class SearchItem implements Serializable {
+
+}

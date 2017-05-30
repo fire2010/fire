@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;TbItemDao.xml&apos; to &apos;fire-search-service/src/main/java/com.fire.search.dao&apos;&#x0D;&#x0A;- Original project: &apos;fire-manager-dao&apos;&#x0D;&#x0A;- Destination element: &apos;fire-search-service/src/main/java/com.fire.search.dao&apos;&#x0D;&#x0A;- Original element: &apos;TbItemDao.xml&apos;" description="Copy file" destination="=fire-search-service/src\/main\/java&lt;com.fire.search.dao" element1="src/main/resources/com/fire/dao/TbItemDao.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1496057601059" units="0" version="1.0"/>
+</session>
