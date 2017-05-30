@@ -1,0 +1,5 @@
+package com.fire.search.service;
+
+public class SearchItemService {
+
+}

@@ -1,0 +1,14 @@
+package com.fire.search.service.impl;
+
+/**
+ * 商品数据导入索引库
+ * <p>Title: SearchItemServiceImpl</p>
+ * <p>Description: </p>
+ * <p>Company: www.fire.com</p> 
+ * @author fire
+ * @date	2017年5月30日下午12:12:36
+ * @version 1.0
+ */
+public class SearchItemServiceImpl {
+
+}
